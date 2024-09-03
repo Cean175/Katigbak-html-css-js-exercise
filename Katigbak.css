@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px;
+    color: #1c1c1cf1;
+    font-family: bold cursive;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar a{
+    color: var(--text-color);
+    font-size: 1.6rem;
+    padding: 10px 50px;
+    font-weight: 500;
+    color: #f06f06f1;
+}
+
+body {
+    background-color: #12022b; 
+    font-family: Arial, sans-serif;
+}
+
+.home {
+    background-image: url('sunset.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: calc(125vh - 100px); 
+    text-align: center;
+    color: #000000dd; 
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px); 
+    text-align: center; 
+    color: #f06f06f1;
+}
+
+.about h3 {
+    margin-right: 30px;
+}
+
+.contacts h2 {
+    font-family: 'Roboto';
+    color: #f06f06f1;
+}
+
+.contacts .btn img {
+    width: 50px; 
+    height: 50px; 
+}
+
+
+
